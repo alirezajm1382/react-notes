@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-brand { margin-right: 7%; }
+
+.bold {
+  font-weight: 700;
+}
+
+.scaler {
+  transition: .45s;
+}
+.scaler:active {
+  transform: scale(1.1); 
+}
+
+.navbar-brand img { margin-right: 10px; }
+
+.Header {
+  display: block;
+}
+
+.App {
+  max-width: 720px;
+}
+
+.icon {
+  font-size: larger;
+  height: 3rem;
+}
+
+.fs-small {
+  font-size: x-small;
+  margin-bottom: 0!important;
+}
+
+button.note-form {
+  border: 0;
+  outline: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+  transition: .25s;
+}
+
+button.note-form:hover {
+  outline: 3px solid black;
+}
+
+.search-icon {
+  height: 100%;
+}
+
+textarea.note-form {
+  resize: none;
+}
+
+input, textarea {
+  border: 0;
+  outline: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+  transition: .25s;
+}
+
+input:focus, textarea:focus {
+  outline: 3px solid black;
+}
