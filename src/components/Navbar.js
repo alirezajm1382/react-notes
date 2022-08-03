@@ -23,14 +23,7 @@ const Navbar = () => {
                             About
                         </NavLink>
                     </li>
-                    <li className="nav-item">
-                        <NavLink 
-                            className={({ isActive }) => isActive ?
-                                'nav-link bold' : 'nav-link'
-                            } 
-                            to='/contact'>
-                                Contact
-                        </NavLink>
+                    <li className="nav-item"> 
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link disabled scaler " to='/disabled'>React + Bootstrap</NavLink>
