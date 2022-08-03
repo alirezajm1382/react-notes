@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# React-notes app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## The Counter.js
+
+The Counter component is my first component in React. I just love it so much that I don't want to remove it. This will be archived forever.
 
 ## Available Scripts
 
